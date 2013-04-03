@@ -1,0 +1,18 @@
+{
+  "name": "basicMoodJMNCodeExercice",
+  "description": "a node application to demonstrate tdd on a reverse file content",
+  "author": "Jean-Marc Nicoux <jm.nicoux@moodmedia.com>",
+  "licence": "WTFPL",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "mocha": ">=1.8.2",
+    "chai": ">=1.5.0",
+    "sinon": ">=1.6.0",
+    "sinon-chai": ">=2.3.1"
+  },
+  "engines": {
+    "node": ">=0.9.6",
+    "npm": ">=1.2.0"
+  }
+}
