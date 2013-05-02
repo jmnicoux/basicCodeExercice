@@ -49,24 +49,30 @@ Remark: should be perform as specified above with the dev modules dependencies i
 
 		Make
 ### Example test result :
+
+Test result :
+
 	../lib/ReversFile.js - Reverse file
-    	✓ getInstance() - instance should create
+		✓ getInstance() - instance should create
 		processArguments() - when i process arguments
-    		✓ it should return false for unspecified source file
-    		✓ it should test source file exists.
-    		✓ it should return false for unspecified destination file
-    		✓ sourceFileName getter should return same as processed argument after valid check
-    		✓ destFileName getter should return same as processed argument after valid check
-    	readSourceFile() - when i read source file
-    		✓ it should call the filesystem readFileSync once
-    		✓ read file failed goes throw error
-    		✓ getData() - it should set the data content to the read file content
+			✓ it should return false for unspecified source file
+			✓ it should test source file exists.
+			✓ it should return false for unspecified destination file
+			✓ sourceFileName getter should return same as processed argument after valid check
+			✓ destFileName getter should return same as processed argument after valid check
+		readSourceFile() - when i read source file
+			✓ it should call the filesystem readFileSync once
+			✓ read file failed goes throw error
+			✓ getData() - it should set the data content to the read file content
 		reverseSourceData() - when i reverse the data
 			✓ it should return data with reversed source content
 		writeReverseContent() - when i save the data
-    		✓ it should call the writeFileSync to write the data to the filesystem
-    	✓ write file failed goes throw error
+			✓ it should call the writeFileSync to write the data to the filesystem
+			✓ write file failed goes throw error
 	12 tests complete (333 ms)
+
+Code Coverage result:
+
 	=============================== Coverage summary ===============================
 	Statements   : 100% ( 28/28 )
 	Branches     : 100% ( 10/10 )
